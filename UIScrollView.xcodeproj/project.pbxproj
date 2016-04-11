@@ -16,6 +16,14 @@
 		29E2412A1CBB7FBC00A910DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E241281CBB7FBC00A910DA /* LaunchScreen.storyboard */; };
 		29E241351CBB7FBC00A910DA /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E241341CBB7FBC00A910DA /* UIScrollViewTests.m */; };
 		29E241401CBB7FBD00A910DA /* UIScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E2413F1CBB7FBD00A910DA /* UIScrollViewUITests.m */; };
+		29E2414F1CBB822F00A910DA /* kADScrolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E2414D1CBB822F00A910DA /* kADScrolViewController.m */; };
+		29E241531CBB832D00A910DA /* firPage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29E241501CBB832D00A910DA /* firPage.jpg */; };
+		29E241541CBB832D00A910DA /* secPage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29E241511CBB832D00A910DA /* secPage.jpg */; };
+		29E241551CBB832D00A910DA /* thiPage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29E241521CBB832D00A910DA /* thiPage.jpg */; };
+		29E241581CBB840E00A910DA /* KHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E241571CBB840E00A910DA /* KHelloViewController.m */; };
+		29E2415C1CBB847600A910DA /* firPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29E241591CBB847600A910DA /* firPage.PNG */; };
+		29E2415D1CBB847600A910DA /* thiPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29E2415A1CBB847600A910DA /* thiPage.PNG */; };
+		29E2415E1CBB847600A910DA /* secPage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 29E2415B1CBB847600A910DA /* secPage.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		29E2413B1CBB7FBD00A910DA /* UIScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2413F1CBB7FBD00A910DA /* UIScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewUITests.m; sourceTree = "<group>"; };
 		29E241411CBB7FBD00A910DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E2414D1CBB822F00A910DA /* kADScrolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kADScrolViewController.m; path = ../kADScrolViewController.m; sourceTree = "<group>"; };
+		29E2414E1CBB822F00A910DA /* kADScrolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kADScrolViewController.h; path = ../kADScrolViewController.h; sourceTree = "<group>"; };
+		29E241501CBB832D00A910DA /* firPage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firPage.jpg; sourceTree = "<group>"; };
+		29E241511CBB832D00A910DA /* secPage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secPage.jpg; sourceTree = "<group>"; };
+		29E241521CBB832D00A910DA /* thiPage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thiPage.jpg; sourceTree = "<group>"; };
+		29E241561CBB840E00A910DA /* KHelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHelloViewController.h; sourceTree = "<group>"; };
+		29E241571CBB840E00A910DA /* KHelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHelloViewController.m; sourceTree = "<group>"; };
+		29E241591CBB847600A910DA /* firPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firPage.PNG; sourceTree = "<group>"; };
+		29E2415A1CBB847600A910DA /* thiPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thiPage.PNG; sourceTree = "<group>"; };
+		29E2415B1CBB847600A910DA /* secPage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secPage.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,12 @@
 				29E241331CBB7FBC00A910DA /* UIScrollViewTests */,
 				29E2413E1CBB7FBD00A910DA /* UIScrollViewUITests */,
 				29E241151CBB7FBC00A910DA /* Products */,
+				29E241501CBB832D00A910DA /* firPage.jpg */,
+				29E241511CBB832D00A910DA /* secPage.jpg */,
+				29E241521CBB832D00A910DA /* thiPage.jpg */,
+				29E241591CBB847600A910DA /* firPage.PNG */,
+				29E2415A1CBB847600A910DA /* thiPage.PNG */,
+				29E2415B1CBB847600A910DA /* secPage.PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +131,10 @@
 				29E2411B1CBB7FBC00A910DA /* AppDelegate.m */,
 				29E2411D1CBB7FBC00A910DA /* ViewController.h */,
 				29E2411E1CBB7FBC00A910DA /* ViewController.m */,
+				29E2414D1CBB822F00A910DA /* kADScrolViewController.m */,
+				29E2414E1CBB822F00A910DA /* kADScrolViewController.h */,
+				29E241561CBB840E00A910DA /* KHelloViewController.h */,
+				29E241571CBB840E00A910DA /* KHelloViewController.m */,
 				29E241201CBB7FBC00A910DA /* Main.storyboard */,
 				29E241261CBB7FBC00A910DA /* Assets.xcassets */,
 				29E241281CBB7FBC00A910DA /* LaunchScreen.storyboard */,
@@ -249,7 +277,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E2415D1CBB847600A910DA /* thiPage.PNG in Resources */,
+				29E241551CBB832D00A910DA /* thiPage.jpg in Resources */,
+				29E241531CBB832D00A910DA /* firPage.jpg in Resources */,
 				29E2412A1CBB7FBC00A910DA /* LaunchScreen.storyboard in Resources */,
+				29E241541CBB832D00A910DA /* secPage.jpg in Resources */,
+				29E2415E1CBB847600A910DA /* secPage.PNG in Resources */,
+				29E2415C1CBB847600A910DA /* firPage.PNG in Resources */,
 				29E241271CBB7FBC00A910DA /* Assets.xcassets in Resources */,
 				29E241221CBB7FBC00A910DA /* Main.storyboard in Resources */,
 			);
@@ -277,6 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E2411F1CBB7FBC00A910DA /* ViewController.m in Sources */,
+				29E241581CBB840E00A910DA /* KHelloViewController.m in Sources */,
+				29E2414F1CBB822F00A910DA /* kADScrolViewController.m in Sources */,
 				29E241251CBB7FBC00A910DA /* UIScrollView.xcdatamodeld in Sources */,
 				29E2411C1CBB7FBC00A910DA /* AppDelegate.m in Sources */,
 				29E241191CBB7FBC00A910DA /* main.m in Sources */,
